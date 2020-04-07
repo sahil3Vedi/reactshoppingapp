@@ -22,7 +22,7 @@ body{
 /* Curation Window highlights the 4-5 top deals offered by the company*/
 
 .window-curation{
-    width: 90%;
+    width: 95%;
     margin: 1vh auto 1vh auto;
     height: 30vh;
     background-color: #8ad67b;
@@ -31,9 +31,8 @@ body{
 
 .buttons-panel-curation{
     position: relative;
-    transform: translate(0px,30vh);
-    bottom: 10px;
-    width: 80%;
+    transform: translate(0px,11vh);
+    width: 75%;
     margin: 0px auto 0px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -44,6 +43,28 @@ body{
     height: 5px;
     background-color: white;
     border-radius: 5px;
+}
+
+.side-button-slider{
+    display: grid;
+    position: relative;
+    transform: translate(0px,12vh);
+    width: 100%;
+    margin: 0px auto 0px auto;
+    grid-template-columns: 1fr 11fr 1fr;
+    column-gap: 5px;
+    height: 5vh;
+}
+
+.slider-button-side{
+    color: whitesmoke;
+}
+
+.sliding{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 1.5em;
 }
 
 /*NAVBAR Panels*/
