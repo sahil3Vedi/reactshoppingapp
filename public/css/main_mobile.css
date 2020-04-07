@@ -1,0 +1,132 @@
+
+/*BODY has 0 margin and is composed of windows*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    /*background-image: url(../img/logo.png);*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* WINDOW is the main class of in Elytra. Everything on the webpage should be inside a window. A webpage may have multiple windows*/
+/* a window is composd of panels. A window can have a single panel too*/
+
+.window{
+    display: grid;
+    margin: 0;    
+}
+
+/* Curation Window highlights the 4-5 top deals offered by the company*/
+
+.window-curation{
+    width: 90%;
+    margin: 1vh auto 1vh auto;
+    height: 30vh;
+    background-color: #8ad67b;
+    border-radius: 10px;
+}
+
+/*NAVBAR Panels*/
+
+.window-navbar-top{
+    background-color: green;
+    grid-template-columns: 1fr 5fr 1fr;
+    margin: 0;
+    border-radius: 0px 0px 10px 10px;
+    top: 0;
+}
+
+.navbar-brand-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.navbar-panel{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 0 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.navbar-option-text{
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+}
+
+.navbar-input-text{
+    border-radius: 5px;
+    width: 100%
+}
+
+.navbar-input-icon{
+    color: white;
+    padding-left: 35px !important;
+    padding-right: 5px !important;
+    transform: translate(0px,2px);
+}
+
+.navbar-burger{
+    color: white;
+}
+
+
+/*PANELS*/
+
+.panel{
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.panel-blog-article{
+    background: #ffffffef;
+    /*background: #eae0a4f8;*/
+    display: grid;
+    grid-template-rows: 3fr 6fr 1fr 1fr;
+}
+
+.panel-title{
+    font-family: 'Roboto', sans-serif !important; 
+    margin: 0 0 26px 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: #8e2f2f;
+}
+
+.panel-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.panel-tags{
+    color: #403b17;
+}
+
+.panel-tags b{
+    color: brown;
+}
+
+/*FOOTERS*/
+
+.window-footer{
+    width: 90%;
+    background: #000000ee;
+    display: grid;
+    grid-template-rows: 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px 4px 0px 0px;
+    bottom: 0;
+    margin: 0 auto !important;
+}
+
+.footer-panel{
+    color: white;
+    padding: 0 20px;
+    text-align: left;
+    font-weight: 500;
+}
+
