@@ -19,6 +19,52 @@ body{
     margin: 0;    
 }
 
+/*NAVBAR Panels*/
+
+.window-navbar-top{
+    background-color: green;
+    grid-template-columns: 1fr 5fr 1fr;
+    margin: 0;
+    border-radius: 0px 0px 10px 10px;
+    top: 0;
+}
+
+.navbar-brand-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.navbar-panel{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 0 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.navbar-option-text{
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+}
+
+.navbar-input-text{
+    border-radius: 5px;
+    width: 100%
+}
+
+.navbar-input-icon{
+    color: white;
+    padding-left: 35px !important;
+    padding-right: 5px !important;
+    transform: translate(0px,2px);
+}
+
+.navbar-burger{
+    color: white;
+}
+
+
 /* Curation Window highlights the 4-5 top deals offered by the company*/
 
 .window-curation{
@@ -67,49 +113,14 @@ body{
     font-size: 1.5em;
 }
 
-/*NAVBAR Panels*/
+/*HIGHLIGHTS are a more direct description of all the categories of products the company is selling*/
 
-.window-navbar-top{
-    background-color: green;
-    grid-template-columns: 1fr 5fr 1fr;
-    margin: 0;
-    border-radius: 0px 0px 10px 10px;
-    top: 0;
-}
-
-.navbar-brand-text{
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    font-weight: 800;
-}
-
-.navbar-panel{
-    color: white;
-    font-family: 'Rubik', sans-serif;
-    padding: 0 20px;
-    text-align: center;
-    font-weight: 700;
-}
-
-.navbar-option-text{
-    margin-block-start: 16px;
-    margin-block-end: 16px;
-}
-
-.navbar-input-text{
-    border-radius: 5px;
-    width: 100%
-}
-
-.navbar-input-icon{
-    color: white;
-    padding-left: 35px !important;
-    padding-right: 5px !important;
-    transform: translate(0px,2px);
-}
-
-.navbar-burger{
-    color: white;
+.window-highlight{
+    width: 97.5%;
+    margin: 1vh 0px 1vh auto;
+    height: 30vh;
+    background-color: #569649;
+    border-radius: 10px 0px 0px 10px;
 }
 
 
