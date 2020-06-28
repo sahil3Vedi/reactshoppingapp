@@ -135,9 +135,7 @@ body{
 .window-highlight{
     width: 97.5%;
     margin: 1vh 0px 1vh auto;
-    background-color: #569649;
     border-radius: 10px 0px 0px 10px;
-    height: 30vh;
 }
 
 .front-highlight{
