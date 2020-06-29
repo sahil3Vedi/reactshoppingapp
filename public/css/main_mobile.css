@@ -9,7 +9,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #e3f5df;
+    background-color: #efffec;
 }
 
 .fontAwesome {
@@ -133,9 +133,9 @@ body{
 /*HIGHLIGHTS are a more direct description of all the categories of products the company is selling*/
 
 .window-highlight{
-    width: 97.5%;
-    margin: 1vh 0px 1vh auto;
-    border-radius: 10px 0px 0px 10px;
+    width: 95%;
+    margin: 1vh auto;
+    border-radius: 10px;
 }
 
 .front-highlight{
@@ -153,27 +153,33 @@ body{
 }
 
 .highlight-blue{
-  background-color: #7384ec;
-  background-image: url("../img/pictures/beverages.png");
+  background-color: #40c7be;
+  background-image: url("../img/pictures/dairy.png");
   background-size: cover;
 }
 
 .highlight-orange{
-  background-color: #ff971b;
+  background-color: #ff991e;
   background-image: url("../img/pictures/beverages.png");
   background-size: cover;
 }
 
 .highlight-green{
-  background-color: #40c740;
+  background-color: #6ab56a;
   background-image: url("../img/pictures/groceries.png");
   background-size: cover;
 }
 
 .highlight-red{
-  background-color: #f53737;
-  background-image: url("../img/pictures/groceries.png");
+  background-color: #ec3e3e;
+  background-image: url("../img/pictures/meat.png");
   background-size: cover;
+}
+
+.fa-highlight{
+  font-size: 0.7em;
+  vertical-align: middle;
+  margin-top: -5px;
 }
 
 /*PANELS*/
