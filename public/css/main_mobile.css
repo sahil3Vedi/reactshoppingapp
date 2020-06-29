@@ -133,9 +133,11 @@ body{
 /*HIGHLIGHTS are a more direct description of all the categories of products the company is selling*/
 
 .window-highlight{
-    width: 95%;
-    margin: 1vh auto;
-    border-radius: 10px;
+  width: 92.5%;
+  margin: 1.2em auto;
+  border-radius: 10px;
+  background-size: contain;
+  box-shadow: 0px 3px #00000055;
 }
 
 .front-highlight{
@@ -155,25 +157,21 @@ body{
 .highlight-blue{
   background-color: #40c7be;
   background-image: url("../img/pictures/dairy.png");
-  background-size: cover;
 }
 
 .highlight-orange{
   background-color: #ff991e;
   background-image: url("../img/pictures/beverages.png");
-  background-size: cover;
 }
 
 .highlight-green{
   background-color: #6ab56a;
   background-image: url("../img/pictures/groceries.png");
-  background-size: cover;
 }
 
 .highlight-red{
   background-color: #ec3e3e;
   background-image: url("../img/pictures/meat.png");
-  background-size: cover;
 }
 
 .fa-highlight{
