@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/reactshoppingapp/static/css/main.59ff7b66.chunk.css",
+    "main.js": "/reactshoppingapp/static/js/main.f5c76ad4.chunk.js",
+    "main.js.map": "/reactshoppingapp/static/js/main.f5c76ad4.chunk.js.map",
+    "runtime-main.js": "/reactshoppingapp/static/js/runtime-main.1e065350.js",
+    "runtime-main.js.map": "/reactshoppingapp/static/js/runtime-main.1e065350.js.map",
+    "static/js/2.5cfc6234.chunk.js": "/reactshoppingapp/static/js/2.5cfc6234.chunk.js",
+    "static/js/2.5cfc6234.chunk.js.map": "/reactshoppingapp/static/js/2.5cfc6234.chunk.js.map",
+    "index.html": "/reactshoppingapp/index.html",
+    "precache-manifest.57d92eaa79b410405a91a19e5919e0df.js": "/reactshoppingapp/precache-manifest.57d92eaa79b410405a91a19e5919e0df.js",
+    "service-worker.js": "/reactshoppingapp/service-worker.js",
+    "static/css/main.59ff7b66.chunk.css.map": "/reactshoppingapp/static/css/main.59ff7b66.chunk.css.map",
+    "static/js/2.5cfc6234.chunk.js.LICENSE.txt": "/reactshoppingapp/static/js/2.5cfc6234.chunk.js.LICENSE.txt",
+    "static/media/KrazyLogoGreen.png": "/reactshoppingapp/static/media/KrazyLogoGreen.bf427ea2.png",
+    "static/media/basket_shopping.png": "/reactshoppingapp/static/media/basket_shopping.a79ea69a.png",
+    "static/media/beet_veg.png": "/reactshoppingapp/static/media/beet_veg.fc7ea2a0.png",
+    "static/media/brinjal_veg.png": "/reactshoppingapp/static/media/brinjal_veg.f3a44526.png",
+    "static/media/carrot_veg.png": "/reactshoppingapp/static/media/carrot_veg.c9f189bc.png",
+    "static/media/ginger_veg.png": "/reactshoppingapp/static/media/ginger_veg.cd03cff3.png",
+    "static/media/lemon_veg.png": "/reactshoppingapp/static/media/lemon_veg.540091b9.png",
+    "static/media/modern_burger.png": "/reactshoppingapp/static/media/modern_burger.ce5a2c2e.png",
+    "static/media/template_groceries_mobile.png": "/reactshoppingapp/static/media/template_groceries_mobile.34245866.png",
+    "static/media/valor_veg.png": "/reactshoppingapp/static/media/valor_veg.ab590c55.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e065350.js",
+    "static/js/2.5cfc6234.chunk.js",
+    "static/css/main.59ff7b66.chunk.css",
+    "static/js/main.f5c76ad4.chunk.js"
+  ]
+}
