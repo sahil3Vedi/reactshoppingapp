@@ -1,0 +1,12 @@
+.searchBar{
+  text-align: center;
+  height: 25px;
+  border-radius: 12px;
+  margin-top: 5px;
+  width: 70%;
+  font-size: 15px;
+}
+
+.fontAwesome {
+  font-family: 'Helvetica', FontAwesome, sans-serif;
+}

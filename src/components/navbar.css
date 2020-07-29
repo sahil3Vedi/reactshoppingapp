@@ -1,0 +1,16 @@
+.navbar-top{
+  width: 100%;
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.navbar-logo-normal{
+  width: 30px;
+  height: auto;
+  margin-top: 15px;
+}
+
+.navbar-logo-brand{
+  width: 140px;
+  height: auto;
+}
