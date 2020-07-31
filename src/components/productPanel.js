@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import AddCartButton from './addCartButton'
 import './productSection.css'
 
 class ProductPanel extends Component{
@@ -14,11 +15,14 @@ class ProductPanel extends Component{
       product_id: this.props.product.product_id,
       qty: this.props.product.qty,
       qwt: this.props.product.qwt,
-      shadow: this.props.product.shadow
+      shadow: this.props.product.shadow,
+      stock: this.props.product.stock,
+      basketqty: this.props.product.basketqty
     }
   }
 
   render() {
+    var basket = this.state.basketqty
     return (
       <div className = {`productPanel`} style={{backgroundColor: this.state.bgcolor, boxShadow: this.state.shadow}}>
         <div>
@@ -36,7 +40,7 @@ class ProductPanel extends Component{
           </div>
         </div>
         <div>
-          <button className="btn-product-basket">Add To Cart</button>
+          <AddCartButton basketqty={basket}/>
         </div>
       </div>
     )

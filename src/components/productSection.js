@@ -16,7 +16,9 @@ class ProductSection extends Component{
           'qwt':'250gm',
           'price': '20',
           'qty': '0',
-          'imagesrc': 'beet_veg'
+          'imagesrc': 'beet_veg',
+          'stock': 20,
+          'basketqty': 0
         },
         1: {
           'product_id': 2,
@@ -27,7 +29,9 @@ class ProductSection extends Component{
           'qwt':'250gm',
           'price': '30',
           'qty': '0',
-          'imagesrc': 'ginger_veg'
+          'imagesrc': 'ginger_veg',
+          'stock': 20,
+          'basketqty': 0
         },
         2: {
           'product_id': 3,
@@ -38,7 +42,9 @@ class ProductSection extends Component{
           'qwt':'250gm',
           'price': '10',
           'qty': '0',
-          'imagesrc': 'brinjal_veg'
+          'imagesrc': 'brinjal_veg',
+          'stock': 20,
+          'basketqty': 0
         },
         3: {
           'product_id': 4,
@@ -49,7 +55,9 @@ class ProductSection extends Component{
           'qwt':'250gm',
           'price': '25',
           'qty': '0',
-          'imagesrc': 'valor_veg'
+          'imagesrc': 'valor_veg',
+          'stock': 20,
+          'basketqty': 0
         },
         4: {
           'product_id': 5,
@@ -60,7 +68,9 @@ class ProductSection extends Component{
           'qwt':'250gm',
           'price': '25',
           'qty': '0',
-          'imagesrc': 'lemon_veg'
+          'imagesrc': 'lemon_veg',
+          'stock': 20,
+          'basketqty': 0
         },
         5: {
           'product_id': 6,
@@ -71,7 +81,9 @@ class ProductSection extends Component{
           'qwt':'250gm',
           'price': '25',
           'qty': '0',
-          'imagesrc': 'carrot_veg'
+          'imagesrc': 'carrot_veg',
+          'stock': 20,
+          'basketqty': 0
         }
       }
     }
@@ -80,6 +92,10 @@ class ProductSection extends Component{
   render(){
     const {data} = this.state
     var elementArray = []
+    for (var vegie in data){
+      var veggieqty = data[vegie]
+      console.log(veggieqty.basketqty)
+    }
     for  (var product in data){
       var productInstance = data[product]
       elementArray.push(<ProductPanel product={productInstance} key={productInstance.product_id} />)
@@ -90,7 +106,6 @@ class ProductSection extends Component{
       </div>
     )
   }
-
 }
 
 export default ProductSection

@@ -81,3 +81,15 @@
   text-align: right;
   margin-right: 8px;
 }
+
+.AddDropBtns{
+  margin: 0px auto;
+  width: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.basketQty{
+  margin-top: 10px;
+  font-weight: bolder;
+}
