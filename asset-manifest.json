@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reactshoppingapp/static/css/main.5b2aa7ea.chunk.css",
-    "main.js": "/reactshoppingapp/static/js/main.7838be14.chunk.js",
-    "main.js.map": "/reactshoppingapp/static/js/main.7838be14.chunk.js.map",
+    "main.css": "/reactshoppingapp/static/css/main.4e7380e9.chunk.css",
+    "main.js": "/reactshoppingapp/static/js/main.03b7e7fc.chunk.js",
+    "main.js.map": "/reactshoppingapp/static/js/main.03b7e7fc.chunk.js.map",
     "runtime-main.js": "/reactshoppingapp/static/js/runtime-main.1e065350.js",
     "runtime-main.js.map": "/reactshoppingapp/static/js/runtime-main.1e065350.js.map",
-    "static/js/2.12e767c1.chunk.js": "/reactshoppingapp/static/js/2.12e767c1.chunk.js",
-    "static/js/2.12e767c1.chunk.js.map": "/reactshoppingapp/static/js/2.12e767c1.chunk.js.map",
+    "static/js/2.cee1e8f0.chunk.js": "/reactshoppingapp/static/js/2.cee1e8f0.chunk.js",
+    "static/js/2.cee1e8f0.chunk.js.map": "/reactshoppingapp/static/js/2.cee1e8f0.chunk.js.map",
     "index.html": "/reactshoppingapp/index.html",
-    "precache-manifest.368060a65530a0b0d0f26678c4357ec0.js": "/reactshoppingapp/precache-manifest.368060a65530a0b0d0f26678c4357ec0.js",
+    "precache-manifest.678ba6015ff7a1e25c0ba4ea76921d3d.js": "/reactshoppingapp/precache-manifest.678ba6015ff7a1e25c0ba4ea76921d3d.js",
     "service-worker.js": "/reactshoppingapp/service-worker.js",
-    "static/css/main.5b2aa7ea.chunk.css.map": "/reactshoppingapp/static/css/main.5b2aa7ea.chunk.css.map",
-    "static/js/2.12e767c1.chunk.js.LICENSE.txt": "/reactshoppingapp/static/js/2.12e767c1.chunk.js.LICENSE.txt",
+    "static/css/main.4e7380e9.chunk.css.map": "/reactshoppingapp/static/css/main.4e7380e9.chunk.css.map",
+    "static/js/2.cee1e8f0.chunk.js.LICENSE.txt": "/reactshoppingapp/static/js/2.cee1e8f0.chunk.js.LICENSE.txt",
     "static/media/KrazyLogoGreen.png": "/reactshoppingapp/static/media/KrazyLogoGreen.bf427ea2.png",
     "static/media/basket_shopping.png": "/reactshoppingapp/static/media/basket_shopping.a79ea69a.png",
     "static/media/beet_veg.png": "/reactshoppingapp/static/media/beet_veg.fc7ea2a0.png",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1e065350.js",
-    "static/js/2.12e767c1.chunk.js",
-    "static/css/main.5b2aa7ea.chunk.css",
-    "static/js/main.7838be14.chunk.js"
+    "static/js/2.cee1e8f0.chunk.js",
+    "static/css/main.4e7380e9.chunk.css",
+    "static/js/main.03b7e7fc.chunk.js"
   ]
 }
