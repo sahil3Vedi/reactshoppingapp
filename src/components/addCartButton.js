@@ -26,14 +26,14 @@ class AddCartButton extends Component{
   render(){
     if (this.state.basketqty===0){
       return(
-        <button className="btn-product-basket" onClick={this.incrementBasketQty}>Add To Cart</button>
+        <button className="btn-product-basket" onClick={this.incrementBasketQty}><i className="fa fa-plus-circle"></i> Add To Cart</button>
       )
     } else{
       return(
         <div className="AddDropBtns">
-          <div><button className="btn-product-basket" onClick={this.decrementBasketQty}>-</button></div>
+          <div><button className="btnCartMinus" onClick={this.decrementBasketQty}><i className="fa fa-minus"></i></button></div>
           <div><p className="basketQty">{this.state.basketqty}</p></div>
-          <div><button className="btn-product-basket" onClick={this.incrementBasketQty}>+</button></div>
+          <div><button className="btnCartPlus" onClick={this.incrementBasketQty}><i className="fa fa-plus"></i></button></div>
         </div>
       )
     }

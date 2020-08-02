@@ -1,4 +1,5 @@
 import React from 'react'
+import SignInSection from './signInSection'
 import './navbar.css'
 
 const SideBar = props =>{
@@ -12,6 +13,7 @@ const SideBar = props =>{
         <div><i onClick={props.clickAction} className="fa fa-times sideNavBack" aria-hidden="true"></i></div>
         <div></div>
       </div>
+      <SignInSection/>
     </div>
   )
 }

@@ -24,7 +24,7 @@ class ProductPanel extends Component{
   render() {
     var basket = this.state.basketqty
     return (
-      <div className = {`productPanel`} style={{backgroundColor: this.state.bgcolor, boxShadow: this.state.shadow}}>
+      <div className = "productPanel" style={{backgroundColor: this.state.bgcolor, boxShadow: this.state.shadow}}>
         <div>
           <img className="product-basket-image" src={require(`../assets/images/${this.state.imagesrc}.png`)} alt=''/>
         </div>

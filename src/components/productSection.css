@@ -12,10 +12,10 @@
 
 .productPanel{
   width: 97%;
-  height: 200px;
+  height: 210px;
   margin: 15px auto;
   display: grid;
-  grid-template-rows: 80px 80px 40px;
+  grid-template-rows: 80px 85px 45px;
   border-radius: 10px;
 }
 
@@ -66,13 +66,13 @@
 }
 
 .btn-product-basket{
-  background-color: black;
+  background-color: #ffffff99;
   font-size: 12px;
-  color: white;
+  color:#000;
   height: 20px;
   border-radius: 10px;
-  vertical-align: center;
   margin-top: 10px;
+  border: 0px;
 }
 
 .product-price{
@@ -92,4 +92,26 @@
 .basketQty{
   margin-top: 10px;
   font-weight: bolder;
+}
+
+.btnCartPlus{
+  font-size: 12px;
+  height: 20px;
+  border-radius: 10px;
+  vertical-align: center;
+  margin-top: 10px;
+  background-color: #00000055;
+  color: whitesmoke;
+  border: 0px;
+}
+
+.btnCartMinus{
+  font-size: 12px;
+  height: 20px;
+  border-radius: 10px;
+  vertical-align: center;
+  margin-top: 10px;
+  border: 0px;
+  background-color: #00000055;
+  color: whitesmoke;
 }

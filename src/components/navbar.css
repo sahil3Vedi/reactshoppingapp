@@ -30,7 +30,7 @@
   width: 300px;
   height: 100%;
   overflow-y: hidden;
-  background-color: rgba(255, 255, 255, .95);
+  background-color: rgba(255, 255, 255, 1);
   margin: 0;
   border-right: 3px solid #4b8c4b;
   box-shadow: 2px 0px 7px rgba(0,0,0,0.5);
@@ -51,5 +51,33 @@
 
 .sideNavBack{
   margin-top: 20px;
-  font-size: 25px
+  font-size: 25px;
+  color: #4b8c4b;
+}
+
+.signInSection{
+  display: grid;
+  grid-template-rows: 90px 40px 40px 60px;
+}
+
+.signInTxt{
+  padding-top: 15px;
+  font-family: Helvetica;
+  font-size: 25px;
+}
+
+.formInputSideNavBar{
+  font-size: 15px;
+  width: 170px;
+  border-radius: 7px;
+  padding: 3px;
+}
+
+.btnSignInSideNavBar{
+  background-color: #208420;
+  height: 30px;
+  width: 120px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px #20842099;
 }
