@@ -26,12 +26,11 @@
 }
 
 .sideNavBar{
-  position: absolute;
+  position: fixed;
   width: 300px;
   height: 100%;
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, .75);
-  backdrop-filter: blur(10px);
+  overflow-y: hidden;
+  background-color: rgba(255, 255, 255, .95);
   margin: 0;
   border-right: 3px solid #4b8c4b;
   box-shadow: 2px 0px 7px rgba(0,0,0,0.5);
