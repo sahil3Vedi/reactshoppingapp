@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactshoppingapp/static/css/main.4e7380e9.chunk.css",
+    "main.css": "/reactshoppingapp/static/css/main.c20790bc.chunk.css",
     "main.js": "/reactshoppingapp/static/js/main.03b7e7fc.chunk.js",
     "main.js.map": "/reactshoppingapp/static/js/main.03b7e7fc.chunk.js.map",
     "runtime-main.js": "/reactshoppingapp/static/js/runtime-main.1e065350.js",
@@ -8,9 +8,9 @@
     "static/js/2.cee1e8f0.chunk.js": "/reactshoppingapp/static/js/2.cee1e8f0.chunk.js",
     "static/js/2.cee1e8f0.chunk.js.map": "/reactshoppingapp/static/js/2.cee1e8f0.chunk.js.map",
     "index.html": "/reactshoppingapp/index.html",
-    "precache-manifest.678ba6015ff7a1e25c0ba4ea76921d3d.js": "/reactshoppingapp/precache-manifest.678ba6015ff7a1e25c0ba4ea76921d3d.js",
+    "precache-manifest.c082004b39d258927f1abcb49c657346.js": "/reactshoppingapp/precache-manifest.c082004b39d258927f1abcb49c657346.js",
     "service-worker.js": "/reactshoppingapp/service-worker.js",
-    "static/css/main.4e7380e9.chunk.css.map": "/reactshoppingapp/static/css/main.4e7380e9.chunk.css.map",
+    "static/css/main.c20790bc.chunk.css.map": "/reactshoppingapp/static/css/main.c20790bc.chunk.css.map",
     "static/js/2.cee1e8f0.chunk.js.LICENSE.txt": "/reactshoppingapp/static/js/2.cee1e8f0.chunk.js.LICENSE.txt",
     "static/media/KrazyLogoGreen.png": "/reactshoppingapp/static/media/KrazyLogoGreen.bf427ea2.png",
     "static/media/basket_shopping.png": "/reactshoppingapp/static/media/basket_shopping.a79ea69a.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.1e065350.js",
     "static/js/2.cee1e8f0.chunk.js",
-    "static/css/main.4e7380e9.chunk.css",
+    "static/css/main.c20790bc.chunk.css",
     "static/js/main.03b7e7fc.chunk.js"
   ]
 }
