@@ -89,13 +89,10 @@ class ProductSection extends Component{
     }
   }
 
+
   render(){
     const {data} = this.state
     var elementArray = []
-    for (var vegie in data){
-      var veggieqty = data[vegie]
-      console.log(veggieqty.basketqty)
-    }
     for  (var product in data){
       var productInstance = data[product]
       elementArray.push(<ProductPanel product={productInstance} key={productInstance.product_id} />)

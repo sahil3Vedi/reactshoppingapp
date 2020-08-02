@@ -14,3 +14,43 @@
   width: 140px;
   height: auto;
 }
+
+.basket-icon-prompt{
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  border: 0px;
+  position: absolute;
+  transform: translate(-10px, 10px);
+}
+
+.sideNavBar{
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, .75);
+  backdrop-filter: blur(10px);
+  margin: 0;
+  border-right: 3px solid #4b8c4b;
+  box-shadow: 2px 0px 7px rgba(0,0,0,0.5);
+  transform: translateX(-110%);
+  transition: transform 0.3s ease-out;
+  z-index: 200;
+}
+
+.sideNavBar.open{
+  transform: translateX(0);
+}
+
+.crossContainer{
+  display: grid;
+  grid-template-columns: 75px 225px;
+  height: 60px;
+}
+
+.sideNavBack{
+  margin-top: 20px;
+  font-size: 25px
+}
