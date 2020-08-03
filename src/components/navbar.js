@@ -10,7 +10,8 @@ class Navbar extends Component{
     super(props)
 
     this.state={
-      sideDrawerOpen: false
+      sideDrawerOpen: false,
+      sideDrawerView: "signInView"
     }
   }
 
@@ -20,11 +21,23 @@ class Navbar extends Component{
     })
   }
 
+  sideChangeSection = () => {
+    let newView
+    if (this.state.sideDrawerView === "signInView"){
+      newView = "signUpView"
+    } else {
+      newView = "signInView"
+    }
+    this.setState({
+      sideDrawerView: newView
+    })
+  }
+
   render(){
     return(
       <div className="navbar-top">
         <div>
-          <SideBar show={this.state.sideDrawerOpen} clickAction={this.drawerToggleClickHandler}/>
+          <SideBar show={this.state.sideDrawerOpen} clickAction={this.drawerToggleClickHandler} view={this.state.sideDrawerView} changeSection={this.sideChangeSection}/>
           <BackDrop show={this.state.sideDrawerOpen} clickAction={this.drawerToggleClickHandler}/>
           <img onClick={this.drawerToggleClickHandler} className="navbar-logo-normal" src={require('../assets/images/modern_burger.png')} alt=''/>
         </div>

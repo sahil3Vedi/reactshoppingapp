@@ -1,7 +1,7 @@
 import React , { Component }from 'react'
 import './navbar.css'
 
-class SignInSection extends Component{
+class SignUpSection extends Component{
 
   constructor(props){
     super(props)
@@ -9,6 +9,7 @@ class SignInSection extends Component{
     this.state={
       username:'',
       password:'',
+      confirmpassword: '',
       toggleview: props.changeSection
     }
   }
@@ -25,17 +26,24 @@ class SignInSection extends Component{
     })
   }
 
+  handleCnfPwdText = event => {
+    this.setState({
+      confirmpassword: event.target.value
+    })
+  }
+
   render(){
     return(
-      <div className="signInSection">
-        <div className="signInTxt"><p>Sign In</p></div>
+      <div className="signUpSection">
+        <div className="signInTxt"><p>Sign Up</p></div>
         <div className="usernameTxt"><input className="formInputSideNavBar" type='text'  value={this.state.username} onChange={this.handleUsrText} placeholder="Email Id"/></div>
         <div className="passwordTxt"><input className="formInputSideNavBar"type='text'  value={this.state.password} onChange={this.handlePwdText} placeholder="Password"/></div>
-        <div className="signInBtnWrapper"><button className="btnSignInSideNavBar" type="submit">SIGN IN</button></div>
-        <div><p>Dont have an account? <span className="changeSection" onClick={this.state.toggleview}>Sign Up</span></p></div>
+        <div className="passwordTxt"><input className="formInputSideNavBar"type='text'  value={this.state.confirmpassword} onChange={this.handleCnfPwdText} placeholder="Confirm Password"/></div>
+        <div className="signInBtnWrapper"><button className="btnSignInSideNavBar" type="submit">SIGN UP</button></div>
+        <div><p>Already have an account? <span className="changeSection" onClick={this.state.toggleview}>Sign In</span></p></div>
       </div>
     )
   }
 }
 
-export default SignInSection
+export default SignUpSection
