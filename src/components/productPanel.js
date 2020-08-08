@@ -7,26 +7,23 @@ class ProductPanel extends Component{
   constructor (props){
     super(props)
     this.state={
-      bgcolor: this.props.product.bgcolor,
-      fruitname: this.props.product.fruitname,
-      fruitnative: this.props.product.fruitnative,
-      imagesrc: this.props.product.imagesrc,
+      bgcolor: this.props.product.bg_color,
+      fruitname: this.props.product.product_name,
+      fruitnative: this.props.product.native_name,
+      imagesrc: this.props.product.product_image,
       price: this.props.product.price,
       product_id: this.props.product.product_id,
-      qty: this.props.product.qty,
-      qwt: this.props.product.qwt,
-      shadow: this.props.product.shadow,
-      stock: this.props.product.stock,
-      basketqty: this.props.product.basketqty
+      qwt: this.props.product.basket_qty,
+      shadow: this.props.product.shadow_color
     }
   }
 
   render() {
-    var basket = this.state.basketqty
+    console.log(this.state.imagesrc)
     return (
       <div className = "productPanel" style={{backgroundColor: this.state.bgcolor, boxShadow: this.state.shadow}}>
         <div>
-          <img className="product-basket-image" src={require(`../assets/images/${this.state.imagesrc}.png`)} alt=''/>
+          <img className="product-basket-image" src={this.state.imagesrc} alt=''/>
         </div>
         <div className="product-basket-information">
           <div className="product-names-qty">
@@ -40,7 +37,7 @@ class ProductPanel extends Component{
           </div>
         </div>
         <div>
-          <AddCartButton basketqty={basket}/>
+          <AddCartButton/>
         </div>
       </div>
     )

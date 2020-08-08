@@ -1,94 +1,30 @@
 import React , { Component } from 'react'
 import ProductPanel from './productPanel'
+import $ from 'jquery'
 import './productSection.css'
 
+const products_url = 'https://polar-wildwood-25995.herokuapp.com/api/'
+var products
+$.getJSON(products_url, function(data) {
+    products = data
+    console.log(products)
+});
+
 class ProductSection extends Component{
+
   constructor(props){
     super(props)
-    this.state = {
-      data: {
-        0: {
-          'product_id': 1,
-          'fruitname': 'Beetroot',
-          'fruitnative': 'બીટ',
-          'bgcolor':'#f08585',
-          'shadow':'0px 10px 15px #f0858588',
-          'qwt':'250gm',
-          'price': '20',
-          'qty': '0',
-          'imagesrc': 'beet_veg',
-          'stock': 20,
-          'basketqty': 0
-        },
-        1: {
-          'product_id': 2,
-          'fruitname': 'Ginger',
-          'fruitnative': 'આદુ',
-          'bgcolor':'#ffd89c',
-          'shadow':'0px 10px 15px #ffd89c88',
-          'qwt':'250gm',
-          'price': '30',
-          'qty': '0',
-          'imagesrc': 'ginger_veg',
-          'stock': 20,
-          'basketqty': 0
-        },
-        2: {
-          'product_id': 3,
-          'fruitname': 'Brinjal',
-          'fruitnative': 'રીંગણ',
-          'bgcolor':'#d18cd2',
-          'shadow':'0px 10px 15px #d18cd288',
-          'qwt':'250gm',
-          'price': '10',
-          'qty': '0',
-          'imagesrc': 'brinjal_veg',
-          'stock': 20,
-          'basketqty': 0
-        },
-        3: {
-          'product_id': 4,
-          'fruitname': 'Vaalor',
-          'fruitnative': 'વાલોર',
-          'bgcolor':'#9fccad',
-          'shadow':'0px 10px 15px #9fccad88',
-          'qwt':'250gm',
-          'price': '25',
-          'qty': '0',
-          'imagesrc': 'valor_veg',
-          'stock': 20,
-          'basketqty': 0
-        },
-        4: {
-          'product_id': 5,
-          'fruitname': 'Lemon',
-          'fruitnative': 'લીંબુ',
-          'bgcolor':'#ffd89c',
-          'shadow':'0px 10px 15px #ffd89c88',
-          'qwt':'250gm',
-          'price': '25',
-          'qty': '0',
-          'imagesrc': 'lemon_veg',
-          'stock': 20,
-          'basketqty': 0
-        },
-        5: {
-          'product_id': 6,
-          'fruitname': 'Carrot',
-          'fruitnative': 'ગાજર',
-          'bgcolor':'#ffad98',
-          'shadow':'0px 10px 15px #ffad9888',
-          'qwt':'250gm',
-          'price': '25',
-          'qty': '0',
-          'imagesrc': 'carrot_veg',
-          'stock': 20,
-          'basketqty': 0
-        }
-      }
+
+    this.state={
+      data: {}
     }
   }
 
+  componentDidMount() {
+    fetch(products_url)
+      .then(response => response.json())
+      .then(data => this.setState({ data: data }));
+  }
 
   render(){
     const {data} = this.state
@@ -103,6 +39,7 @@ class ProductSection extends Component{
       </div>
     )
   }
+
 }
 
 export default ProductSection

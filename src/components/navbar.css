@@ -62,7 +62,7 @@
 
 .signUpSection{
   display: grid;
-  grid-template-rows: 90px 40px 40px 40px 50px 20px;
+  grid-template-rows: 90px 40px 40px 40px 40px 50px 20px;
 }
 
 .signInTxt{

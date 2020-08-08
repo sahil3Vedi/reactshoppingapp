@@ -7,7 +7,7 @@ class AddCartButton extends Component{
   constructor (props){
     super(props)
     this.state = {
-      basketqty: this.props.basketqty
+      basketqty: 0
     }
   }
 
